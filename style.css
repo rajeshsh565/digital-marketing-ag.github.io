@@ -176,6 +176,7 @@ input[type="checkbox"] {
     padding: 0.5rem 0;
     font-weight: bold;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 .slide-content a:hover{
     background-color: var(--secondary-color);
