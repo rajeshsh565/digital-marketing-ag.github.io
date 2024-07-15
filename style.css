@@ -49,6 +49,7 @@ section{
 /* HERO SECTION */
 .hero-center {
     align-items: center;
+    justify-content: center;
 }
 .hero-img{
     height: 25rem;
@@ -57,11 +58,11 @@ section{
 }
 .text-side {
     margin-right: 2.5rem;
-    max-width: 50rem;
+    max-width: 30rem;
 }
 /* SERVICES SECTION */
 .services{
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(224, 224, 224);
 }
 .service-center{
     flex-direction: column;
@@ -193,18 +194,18 @@ input[type="checkbox"] {
 .projects-center{
     text-align: center;
 }
-.projects .activeProject {
-    background-color: var(--primary-color);
-    color: white;
-}
 .projects .project-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 25rem;
+    background-color: rgb(224, 224, 224);
     height: 10rem;
     border-bottom: 0.1rem solid white;
     transition: all 0.3s ease;
+}
+.projects .activeProject {
+    background-color: var(--primary-color);
+    color: white;
 }
 .projects .project-text:hover {
     color: white;
@@ -233,7 +234,7 @@ input[type="checkbox"] {
 
 /* STAT SECTION */
 .stats{
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(224, 224, 224);
 }
 .stats-center {
     margin: 0 auto;
