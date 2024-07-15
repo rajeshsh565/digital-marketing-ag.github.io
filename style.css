@@ -127,15 +127,21 @@ input[type="checkbox"] {
 .slick-dots{
     text-align: start;
 }
-.slick-dots .slick-active button{
-    border-radius: 2rem;
-    outline: 2px solid red;
-    outline-offset: -1px;
+.slick-dots li button::before{
+    color: black;
+    opacity: 100%;
 }
-.slick-dots .slick-active button:hover{
+.slick-dots li button:hover{
+    border: 2px solid var(--primary-color);
     border-radius: 2rem;
-    outline: 2px solid red;
-    outline-offset: -1px;
+}
+.slick-dots li.slick-active button::before{
+    opacity: 100%;
+    border-radius: 2rem;
+    outline: 2px solid var(--primary-color);
+    outline-offset: -2px;
+    text-align: center;
+    color: var(--primary-color);
 }
 .slick-slide{
     position: relative;
